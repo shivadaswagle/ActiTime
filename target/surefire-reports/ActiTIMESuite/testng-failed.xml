@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [ActiTIMESuite]" parallel="tests">
+  <test name="TestChrome(failed)" parallel="tests">
+    <parameter name="node" value="http://127.0.0.1:4444/wd/hub"/>
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.actitime.test.ValidLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.test.ValidLogin -->
+      <class name="com.actitime.test.InvalidLogin">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.test.InvalidLogin -->
+      <class name="com.actitime.test.VerifyProductVersion">
+        <methods>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+          <include name="testVerifyProductVersion"/>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.test.VerifyProductVersion -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test name="TestFirefox(failed)" parallel="tests">
+    <parameter name="node" value="http://127.0.0.1:4444/wd/hub"/>
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.actitime.test.ValidLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.test.ValidLogin -->
+      <class name="com.actitime.test.InvalidLogin">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.test.InvalidLogin -->
+      <class name="com.actitime.test.VerifyProductVersion">
+        <methods>
+          <include name="postCondition"/>
+          <include name="postCondition"/>
+          <include name="testVerifyProductVersion"/>
+          <include name="preCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.test.VerifyProductVersion -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [ActiTIMESuite] -->

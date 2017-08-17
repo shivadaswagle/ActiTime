@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ActiTIMESuite]">
+  <test name="TestChrome(failed)">
+    <classes>
+      <class name="com.actitime.test.InvalidLogin">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.test.InvalidLogin -->
+      <class name="com.actitime.test.VerifyProductVersion">
+        <methods>
+          <include name="postCondition"/>
+          <include name="testVerifyProductVersion"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.test.VerifyProductVersion -->
+      <class name="com.actitime.test.ValidLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.actitime.test.ValidLogin -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [ActiTIMESuite] -->

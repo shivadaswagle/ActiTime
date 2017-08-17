@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 25.611 s <<< FAILURE! - in TestSuite
+testValidLogin(com.actitime.test.ValidLogin)  Time elapsed: 0.165 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlObject
+	at com.actitime.test.ValidLogin.testValidLogin(ValidLogin.java:12)
+Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
+	at com.actitime.test.ValidLogin.testValidLogin(ValidLogin.java:12)
+Caused by: java.util.zip.ZipException: invalid LOC header (bad signature)
+	at com.actitime.test.ValidLogin.testValidLogin(ValidLogin.java:12)
+
+testValidLogin(com.actitime.test.ValidLogin)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlObject
+	at com.actitime.test.ValidLogin.testValidLogin(ValidLogin.java:12)
+Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
+	at com.actitime.test.ValidLogin.testValidLogin(ValidLogin.java:12)
+Caused by: java.util.zip.ZipException: invalid LOC header (bad signature)
+	at com.actitime.test.ValidLogin.testValidLogin(ValidLogin.java:12)
+
+testInvalidLogin(com.actitime.test.InvalidLogin)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlObject
+	at com.actitime.test.InvalidLogin.testInvalidLogin(InvalidLogin.java:11)
+Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
+	at com.actitime.test.InvalidLogin.testInvalidLogin(InvalidLogin.java:11)
+Caused by: java.util.zip.ZipException: invalid LOC header (bad signature)
+	at com.actitime.test.InvalidLogin.testInvalidLogin(InvalidLogin.java:11)
+
+testInvalidLogin(com.actitime.test.InvalidLogin)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlObject
+	at com.actitime.test.InvalidLogin.testInvalidLogin(InvalidLogin.java:11)
+Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
+	at com.actitime.test.InvalidLogin.testInvalidLogin(InvalidLogin.java:11)
+Caused by: java.util.zip.ZipException: invalid LOC header (bad signature)
+	at com.actitime.test.InvalidLogin.testInvalidLogin(InvalidLogin.java:11)
+
+testVerifyProductVersion(com.actitime.test.VerifyProductVersion)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlObject
+	at com.actitime.test.VerifyProductVersion.testVerifyProductVersion(VerifyProductVersion.java:14)
+Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
+	at com.actitime.test.VerifyProductVersion.testVerifyProductVersion(VerifyProductVersion.java:14)
+Caused by: java.util.zip.ZipException: invalid LOC header (bad signature)
+	at com.actitime.test.VerifyProductVersion.testVerifyProductVersion(VerifyProductVersion.java:14)
+
+testVerifyProductVersion(com.actitime.test.VerifyProductVersion)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NoClassDefFoundError: org/apache/xmlbeans/XmlObject
+	at com.actitime.test.VerifyProductVersion.testVerifyProductVersion(VerifyProductVersion.java:14)
+Caused by: java.lang.ClassNotFoundException: org.apache.xmlbeans.XmlObject
+	at com.actitime.test.VerifyProductVersion.testVerifyProductVersion(VerifyProductVersion.java:14)
+Caused by: java.util.zip.ZipException: invalid LOC header (bad signature)
+	at com.actitime.test.VerifyProductVersion.testVerifyProductVersion(VerifyProductVersion.java:14)
+

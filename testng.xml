@@ -1,0 +1,16 @@
+<suite name="ActiTIMESuite" parallel="tests">
+  <test name="TestFirefox">
+   <parameter name="node" value="http://10.204.106.62:4444/wd/hub"/>
+   <parameter name="browserName" value="firefox"/>
+	<packages>
+		<package name="com.actitime.test"/>
+	</packages>
+  </test>
+    <test name="TestChrome">
+   <parameter name="node" value="http://10.204.106.62:4444/wd/hub"/>
+   <parameter name="browserName" value="firefox"/>
+	<packages>
+		<package name="com.actitime.test"/>
+	</packages>
+  </test>
+</suite>
